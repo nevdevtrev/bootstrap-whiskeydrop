@@ -1,0 +1,24 @@
+body{
+   font-family: 'Dancing Script', cursive;
+}
+.alert-container {
+    
+}
+
+.features-container {
+    
+}
+
+.callout-container {
+    height: 100vh;
+    
+  background: url("Images/whiskey-image.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.quotes-container {
+    
+}
