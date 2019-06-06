@@ -17,8 +17,39 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .quotes-container {
     
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.jumbotron small {
+    font-size: 90%;
+    font-style: inherit;
+    color: #a29a9a;
+}
+
+.jumbotron .lead {
+    color: #bcbfca;
+}
+.block-separator {
+    border: 0;
+    width: 35px;
+    height: 5px;
+    background-color: #ab1020;
 }
