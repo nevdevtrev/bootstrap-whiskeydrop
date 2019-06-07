@@ -11,8 +11,8 @@ body{
 
 .callout-container {
     height: 100vh;
-    
-  background: url("Images/whiskey-image.jpg") no-repeat bottom right fixed; 
+    position: relative;
+  background: url("Images/whiskey image.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,6 +28,14 @@ body{
     
 }
 
+.opaque-overlay {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
 /* Jumbotron */
 
 .jumbotron {
@@ -51,5 +59,24 @@ body{
     border: 0;
     width: 35px;
     height: 5px;
+}
+.block-separator--red {
     background-color: #ab1020;
+}
+.block-separator--short {
+    width: 17px;
+
+}
+/*buttons*/
+
+btn--cta {
+    font-weight: bold;
+    border-radius: 25px;
+    width: 180px;
+}
+
+btn--green {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
 }
