@@ -1,51 +1,65 @@
-body{
-   font-family: 'Dancing Script', cursive;
-}
-.alert-container {
-    
+body {
+    font-family: 'Dancing Script', cursive;
 }
 
-.features-container {
-    
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
+
+.link-navbar {
+    color: #f5f7f5;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    color: #dcbb5b;
+    background-color: #271e01;
+    border-color: #271e01;
+}
+
+.features-container {}
 
 .callout-container {
     height: 100vh;
     position: relative;
-  background: url("Images/whiskey image.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+    background: url("Images/whiskey image.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.quotes-container {
-    
-}
+.quotes-container {}
 
 .opaque-overlay {
     height: 100%;
     width: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
 }
+
 /* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
 }
+
 .jumbotron-header {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 .jumbotron small {
     font-size: 90%;
     font-style: inherit;
@@ -55,28 +69,76 @@ body{
 .jumbotron .lead {
     color: #bcbfca;
 }
+
 .block-separator {
     border: 0;
     width: 35px;
     height: 5px;
 }
+
 .block-separator--red {
     background-color: #ab1020;
 }
+
 .block-separator--short {
     width: 17px;
 
 }
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    color: #f5f7f5;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: normal;
+    font-family: cursive;
+}
+
+.navbar
 /*buttons*/
 
-btn--cta {
+.btn--cta {
     font-weight: bold;
     border-radius: 25px;
-    width: 180px;
+    width: 150px;
 }
 
-btn--green {
+.btn--green {
     color: white;
-    background-color: #28a745;
-    border-color: #28a745;
+    border-radius: 45%;
+    background-color: #09581b;
+    border-color: #09581b;
 }
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    background-color: #022d0b;
+    border-color: #022d0b;
+}
+
+.btn--green
