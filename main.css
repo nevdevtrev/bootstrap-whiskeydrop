@@ -20,6 +20,20 @@ body {
     border-color: #271e01;
 }
 
+.page-header {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.quotes .page-header {
+    margin-bottom: 20px;
+}
 .features-container {}
 
 .callout-container {
@@ -74,6 +88,7 @@ body {
     border: 0;
     width: 35px;
     height: 5px;
+    background-color: #444;
 }
 
 .block-separator--red {
@@ -83,6 +98,26 @@ body {
 .block-separator--short {
     width: 17px;
 
+}
+
+.block-separator--white {
+    background-color: white;
+}
+
+/* Context Wrappers */
+
+.container-wrapper {}
+
+.container-wrapper--green {
+    background-color: #09581b;
+    color: white;
+}
+
+/* Content Containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -141,4 +176,24 @@ body {
     border-color: #022d0b;
 }
 
-.btn--green
+.feature {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    line-height: 45px;
+    font-size: 45px;
+}
+
+.feature .btn {
+    margin-top: 10px;
+    color: #09581b;
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+
+}
