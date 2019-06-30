@@ -197,3 +197,7 @@ body {
     font-weight: bold;
 
 }
+
+.rotate {
+    transition: all 5s ease;
+}
